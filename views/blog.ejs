@@ -1,0 +1,23 @@
+<%- include("partials/header2") -%>
+<section class="blogs">
+<div class="container">
+<h1 class="text-dark text-center compose"><%= title %></h1>
+<hr class="hr-title">
+
+<div class="row">
+<% posts.forEach(function(object){ %>
+  <div class="col-md-4 mt-4 mb-4">
+    <div class="card text-center shadow-sm">
+        <img src=<%="/images/blogimages/"+object.header_image %> alt="" class="card-img-top" style="height:15rem;">
+      <div class="card-body">
+        <h5 class="card-title"><%= object.title %></h5>
+        <!-- <p class="card-text"><%= object.content.substring(0,100)+"..." %> <a href="<%="/posts/" + object.title %>">read more</a></p> -->
+        <a href="<%="/posts/" + object.title %>" class="btn btn-primary">Read It</a>
+      </div>
+    </div>
+  </div>
+<% }); %>
+</div>
+</div>
+</section>
+<%- include("partials/footer") -%>

@@ -1,0 +1,109 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.body{
+  margin:0;
+   padding:0;
+   height:100%;
+}
+.hr-title{
+  width:3%;
+  background-color:#0275c0;
+  height:0.2rem;
+}
+.hr-sub-heading{
+width:15%;
+background-color:#0275c0;
+height:0.2rem;
+margin-left:0;
+}
+.navigation{
+    background-color: #010101;
+    overflow-x: hidden;
+}
+
+.intro{
+  background-color: #010101;
+  height: 45rem;
+  overflow-x: hidden;
+}
+.name{
+  color: #eff7e1;
+  text-align: center;
+  padding-top: 13%;
+  font-size: 6rem;
+}
+
+.nir{
+  text-align: center;
+  display: inline-block;
+  width: 50%;
+  margin: 0 25%;
+}
+
+
+.skill-items{
+    color: #eff7e1;
+}
+
+
+.about-me{
+  background-color: #f7f7f7;
+  padding:8% 0 5% 0;
+}
+
+.github-link{
+  margin-top: 2%;
+}
+.projects{
+  background-color: #f7f7f7;
+}
+.blogs{
+    background-color: #f7f7f7;
+    padding-bottom: 5%;
+}
+.contact-me-form{
+  padding: 5% 0 0 0;
+
+}
+.compose-form{
+  margin-bottom: 3%;
+}
+.post-heading{
+  padding: 10% 0 0 0;
+}
+.compose{
+  padding: 8% 0 0 0;
+}
+.icon-color{
+  color:#0275c0;
+}
+.copyrights{
+  color: white;
+  text-align: center;
+  margin:0;
+  padding-bottom: 1%;
+}
+.wrap{
+  white-space: pre-wrap;
+}
+@media only screen and (max-width: 768px) {
+  .intro{
+    height: 40rem;
+  }
+  .name{
+    padding-top: 25%;
+    font-size: 5rem;
+  }
+
+  .about-me{
+    background-color: #f7f7f7;
+    padding:20% 0 5% 0;
+  }
+  .blogs{
+      background-color: #f7f7f7;
+      padding:12% 0 5% 0;
+  }
+}
